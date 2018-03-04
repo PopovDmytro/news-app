@@ -1,0 +1,9 @@
+<!--id:string,-->
+<h3>{{news.title}}</h3>
+<p>Author: {{news.author}}</p>
+<p>date: {{news.createdDate}}</p>
+<p *ngIf="news.updatedDate">{{news.updatedDate}}</p>
+<div class="">
+  <img [src]="news.image" alt="image">
+</div>
+<p>{{news.text}}</p>

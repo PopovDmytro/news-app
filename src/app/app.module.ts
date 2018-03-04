@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 //
 import { MaterialComponentsModule } from "./material-components-module/material-components-module.module";
 import { NewsListComponent } from './news-list/news-list.component';
+import { NewsDetailComponent } from './news-detail/news-detail.component';
 //
 
 //
 @NgModule({
   declarations: [
     AppComponent,
-    NewsListComponent
+    NewsListComponent,
+    NewsDetailComponent
   ],
   imports: [
     BrowserModule,
